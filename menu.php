@@ -38,7 +38,7 @@
                         <a href="#">Formulários</a>
                     </li>
                     <li>
-                        <a href="#">Legislação</a>
+                        <a href="legislacao.php">Legislação</a>
                     </li>
                     <li>
                         <a href="contact.php">Contato</a>

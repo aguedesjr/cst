@@ -49,7 +49,7 @@
                     </div>
                     <div class="panel-body">
                         <p>O ambiente de trabalho possui suas regras próprias que visam garantir a saúde e a segurança das pessoas. No âmbito privado, aplicam-se as Normas Regulamentadoras (NRs) do Ministério do Trabalho e Emprego (MTE).</p>
-                        <a href="#" class="btn btn-success">Saiba Mais</a>
+                        <a href="legislacao.php" class="btn btn-success">Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                     </div>
                     <div class="panel-body">
                         <p>Entre em contato conosco. Fique por dentro das últimas novidades.</p><br><br><br>
-                        <a href="#" class="btn btn-success">Saiba Mais</a>
+                        <a href="contact.php" class="btn btn-success">Saiba Mais</a>
                     </div>
                 </div>
             </div>
