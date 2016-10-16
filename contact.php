@@ -1,26 +1,9 @@
 <? include ("head.php"); ?>
 
-<script>
-		$(function() {
-
-            	$('#assunto').change(function() {
-
-                	var val = $(this).val();
-
-                	alert(val);
-
-                	if (val == 1) {
-                    	var para = document.createElement("p");
-                    	var node = document.createTextNode("Teste");
-                    	para.appendChild(node);
-
-                    	var element = document.getElementById("contactForm");
-                    	var child  = document.getElementById("ref");
-                    	element.insertBefore(para,child);
-                	};
-
-                	});
-        	});
+		<script>
+			function altera() {
+				alert("teste");
+			}
         </script>
 
 <body>
@@ -93,7 +76,7 @@
                     <div class="control-group form-group">
                         <div class="controls">
                         <label>Assunto:</label><br>
-                            <select name="assunto" id="assunto" class="form-control">
+                            <select name="assunto" id="assunto" class="form-control" onchange=altera();>
                             	<option value="">Selecione o Assunto</option>
                             	<option value="1">Orçamento</option>
                             	<option value="2">Dúvida</option>
