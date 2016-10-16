@@ -1,8 +1,14 @@
 <? include ("head.php"); ?>
 
 		<script>
-			function altera() {
-				alert("teste");
+			function altera(valor) {
+				var sel = valor;
+				if ( sel == 1) {
+					//alert(sel);
+					var $wrapper = document.querySelector('.controle');
+					HTMLNovo = '<div class="control-group form-group"><div class="controls"><label>CNPJ:</label><input type="text" class="form-control" id="cnpj" required data-validation-required-message="Please enter your email address."></div></div>';
+				    $wrapper.insertAdjacentHTML('afterbegin', HTMLNovo);
+				}
 			}
         </script>
 
@@ -76,7 +82,7 @@
                     <div class="control-group form-group">
                         <div class="controls">
                         <label>Assunto:</label><br>
-                            <select name="assunto" id="assunto" class="form-control" onchange=altera();>
+                            <select name="assunto" id="assunto" class="form-control" onchange=altera(this.value);>
                             	<option value="">Selecione o Assunto</option>
                             	<option value="1">Orçamento</option>
                             	<option value="2">Dúvida</option>
@@ -84,11 +90,13 @@
                             </select>
                         </div>
                     </div>
-                    <div class="control-group form-group" id="ref">
-                        <div class="controls">
-                            <label>Menssagem:</label>
-                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
-                        </div>
+                    <div class="controle">
+	                    <div class="control-group form-group" id="ref">
+	                        <div class="controls">
+	                            <label>Menssagem:</label>
+	                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+	                        </div>
+	                    </div>
                     </div>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
