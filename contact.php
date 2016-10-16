@@ -5,9 +5,12 @@
 				var sel = valor;
 				if ( sel == 1) {
 					//alert(sel);
-					var $wrapper = document.querySelector('.controle');
+					var $wrapper = document.querySelector('.empresa');
 					HTMLNovo = '<div class="control-group form-group"><div class="controls"><label>CNPJ:</label><input type="text" class="form-control" id="cnpj" required data-validation-required-message="Please enter your email address."></div></div>';
 				    $wrapper.insertAdjacentHTML('afterbegin', HTMLNovo);
+				}
+				else {
+					document.getElementById('empresa').remove()
 				}
 			}
         </script>
@@ -90,14 +93,16 @@
                             </select>
                         </div>
                     </div>
-                    <div class="controle">
-	                    <div class="control-group form-group" id="ref">
+                    <div class="empresa" id="empresa">
+                    	<input type="hidden">
+                    </div>
+	                    <div class="control-group form-group" >
 	                        <div class="controls">
 	                            <label>Menssagem:</label>
 	                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
 	                        </div>
 	                    </div>
-                    </div>
+                    
                     <div id="success"></div>
                     <!-- For success/fail messages -->
                     <button type="submit" class="btn btn-success">Enviar</button>
