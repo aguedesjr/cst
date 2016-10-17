@@ -76,7 +76,7 @@
                         <h4><i class="fa fa-fw fa-stethoscope"></i> Medicina Ocupacional</h4>
                     </div>
                     <div class="panel-body">
-                        <p>O Programa de Prevenção de Riscos Ambientais - PPRA, o serviço de saúde ocupacional objetiva o perfeito monitoramento médico da saúde ocupacional dos trabalhadores através dos exames clínicos e complementares necessários.</p>
+                        <p>O Programa de Controle Médico de Saúde Ocupacional - PCMSO, objetiva o perfeito monitoramento médico da saúde ocupacional dos trabalhadores através dos exames clínicos e complementares necessários.</p>
                         <a href="#" class="btn btn-success">Saiba Mais</a>
                     </div>
                 </div>
