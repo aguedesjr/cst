@@ -105,7 +105,7 @@
                     
                     <div id="success"></div>
                     <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-success">Enviar</button>
+                    <button type="submit" class="btn btn-default" style="background-color: #3C763D; color: white;">Enviar</button>
                 </form>
             </div>
 

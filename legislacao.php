@@ -41,7 +41,7 @@
                     <div class="panel-body">
                         <h4>CLT</h4>
                         <p>Consolidação das Leis do Trabalho.</p><br>
-                        <a href="http://www.planalto.gov.br/ccivil_03/decreto-lei/Del5452.htm" class="btn btn-success">Saiba Mais</a>
+                        <a href="http://www.planalto.gov.br/ccivil_03/decreto-lei/Del5452.htm" class="btn btn-default" style="background-color: #3C763D; color: white;">Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                     <div class="panel-body">
                         <h4>Normas Regulamentadoras</h4>
                         <p>Normas de Segurança e Saúde no Trabalho.</p>
-                        <a href="http://trabalho.gov.br/index.php/seguranca-e-saude-no-trabalho/normatizacao/normas-regulamentadoras" class="btn btn-success">Saiba Mais</a>
+                        <a href="http://trabalho.gov.br/index.php/seguranca-e-saude-no-trabalho/normatizacao/normas-regulamentadoras" class="btn btn-default" style="background-color: #3C763D; color: white;">Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                     <div class="panel-body">
                         <h4>Higiene Ocupacional</h4>
                         <p>Normas de Higiene Ocupacional.</p><br>
-                        <a href="http://www.fundacentro.gov.br/biblioteca/normas-de-higiene-ocupacional" class="btn btn-success">Saiba Mais</a>
+                        <a href="http://www.fundacentro.gov.br/biblioteca/normas-de-higiene-ocupacional" class="btn btn-default" style="background-color: #3C763D; color: white;">Saiba Mais</a>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                     <div class="panel-body">
                         <h4>Previdência Social</h4>
                         <p>Benefícios do INSS.</p><br>
-                        <a href="http://www.previdencia.gov.br/servicos-ao-cidadao/beneficios-do-inss" class="btn btn-success">Saiba Mais</a>
+                        <a href="http://www.previdencia.gov.br/servicos-ao-cidadao/beneficios-do-inss" class="btn btn-default" style="background-color: #3C763D; color: white;">Saiba Mais</a>
                     </div>
                 </div>
             </div>
