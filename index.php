@@ -17,7 +17,7 @@
             <div class="col-md-4">
                 <h1>A Empresa</h1>
                 <p>A CST Saraiva  - Consultoria em Segurança do Trabahlo está localizado na cidade de Campos dos Goytacazes/RJ e tem o objetivo de disponibilizar serviços na área de segurança do trabalho e saúde ocupacional.</p>
-                <a href="#" class="btn btn-default btn-lg" style="background-color: #3C763D; color: white;">Saiba Mais</a>
+                <a href="empresa.php" class="btn btn-default btn-lg" style="background-color: #3C763D; color: white;">Saiba Mais</a>
             </div>
             <!-- /.col-md-4 -->
         </div>
