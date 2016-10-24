@@ -46,18 +46,18 @@
                 <p><i class="fa fa-phone"></i> 
                     <i class="fa fa-whatsapp"></i>: (22) 99989-5514</p>
                 <p><i class="fa fa-envelope-o"></i> 
-                    : <a href="mailto:biancasaraiva@cstsaraiva.com.br" style="color:#5CB85C;">biancasaraiva@cstsaraiva.com.br</a>
+                    : <a href="mailto:biancasaraiva@cstsaraiva.com.br" style="color:#3C763D;"><strong>biancasaraiva@cstsaraiva.com.br</strong></a>
                 </p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
-                        <a href="https://www.facebook.com/cstsaraiva" style="color:#5CB85C;"><i class="fa fa-facebook-official fa-2x"></i></a>
+                        <a href="https://www.facebook.com/cstsaraiva" style="color:#3C763D;"><i class="fa fa-facebook-official fa-2x"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/cstsaraiva" style="color:#5CB85C;"><i class="fa fa-instagram fa-2x"></i></a>
+                        <a href="https://www.instagram.com/cstsaraiva" style="color:#3C763D;"><i class="fa fa-instagram fa-2x"></i></a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#" style="color:#5CB85C;"><i class="fa fa-google-plus-official fa-2x"></i></a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
