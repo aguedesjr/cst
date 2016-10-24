@@ -10,7 +10,7 @@
 				    $wrapper.insertAdjacentHTML('afterbegin', HTMLNovo);
 				}
 				else {
-					document.getElementById('empresa').remove()
+					document.getElementById('empresa').remove();
 				}
 			}
         </script>
