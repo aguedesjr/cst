@@ -51,9 +51,11 @@
                 </p>
             </div>
             <div class="col-md-8">
-                <h3><p style="color: #3C763D;">Missão</p>
+                <h3><p style="color: #3C763D;">A Empresa</p>
                 </h3>
-                <p>Nossa missão é identificar as necessidades de nossos clientes e prestar serviços de assessoria com qualidade, promovendo a qualidade de vida dos trabalhadores com ações voltadas à segurança, ao meio ambiente e à saúde em sua empresa, de maneira a garantir a satisfação, identificando suas necessidades, propondo soluções adequadas às realidades internas e as legislações específicas, bem como desenvolver treinamentos personalizados, buscando a maximização dos resultados e superar as expectativas.</p>
+                <p>A CST SARAIVA está instalada em Campos dos Goytacazes, interior do estado do Rio de Janeiro e atua como consultora em segurança do trabalho e saúde ocupacional, orientando e direcionando as empresas no cumprimento das Normas Regulamentadoras e demais legislações vigentes.</p>
+                <p>A CST SARAIVA auxilia seus clientes na melhoria da qualidade de vida dos colaboradores, através de treinamentos, campanhas e cursos.</p>
+                <p>A atuação da CST SARAIVA busca sempre a pró atividade. Acreditamos que cada cliente possui necessidades diferentes, e por isso buscamos soluções personalizadas.</p>
             </div>
         </div>
         <!-- /.row -->
@@ -67,9 +69,9 @@
                 </p>
             </div>
             <div class="col-md-8">
-                <h3><p style="color: #3C763D;">Visão</p>
+                <h3><p style="color: #3C763D;">Missão</p>
                 </h3>
-                <p>Ser uma empresa especializada e referência em consultoria e treinamentos em segurança do trabalho, saúde ocupacional e meio ambiente. Trabalhar com criatividade e inovação de maneira atender exigências legais e tendências do mercado.</p>
+                <p>Nossa missão é identificar as necessidades de nossos clientes e desenvolver a segurança e medicina do trabalho com qualidade com qualidade.</p>
             </div>
         </div>
         <!-- /.row -->
@@ -83,9 +85,9 @@
                 </p>
             </div>
             <div class="col-md-8">
-                <h3><p style="color: #3C763D;">Valores</p>
+                <h3><p style="color: #3C763D;">Visão</p>
                 </h3>
-                <p>Ser uma empresa ética, transparente e objetiva, integrada em saúde e segurança do trabalho, prestando serviços de maneira diferenciada, agregando assim, valores para o Clientes.</p>
+                <p>Ser referencial em segurança no trabalho no norte e noroeste fluminense.</p>
             </div>
         </div>
         <!-- /.row -->
