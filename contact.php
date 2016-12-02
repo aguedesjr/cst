@@ -68,24 +68,24 @@
         <div class="row">
             <div class="col-md-8">
                 <h3>Fale Conosco</h3>
-                <form name="sentMessage" id="contactForm" method="POST" action="enviaremail.php">
+                <form method="POST" action="enviaremail.php">
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Nome:</label>
-                            <input type="text" class="form-control" id="name" required data-validation-required-message="Informe seu nome.">
+                            <input type="text" class="form-control" name="name" id="name" required data-validation-required-message="Informe seu nome.">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Email:</label>
-                            <input type="email" class="form-control" id="email" required data-validation-required-message="Informe seu email.">
+                            <input type="email" class="form-control" name="email" id="email" required data-validation-required-message="Informe seu email.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Telefone:</label>
-                            <input type="tel" class="form-control" id="tel" required data-validation-required-message="Informe seu telefone.">
+                            <input type="tel" class="form-control" name="tel" id="tel" required data-validation-required-message="Informe seu telefone.">
                         </div>
                     </div>
                     <div class="control-group form-group">
@@ -111,7 +111,8 @@
                     
                     <div id="success"></div>
                     <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-default" style="background-color: #3C763D; color: white;">Enviar</button>
+                    <!-- <button type="submit" class="btn btn-default" style="background-color: #3C763D; color: white;">Enviar</button> -->
+                    <input type="submit" value="Enviar" class="btn btn-default" style="background-color: #3C763D; color: white;">
                 </form>
             </div>
 

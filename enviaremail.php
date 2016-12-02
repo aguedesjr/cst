@@ -7,7 +7,7 @@
   // 3 - resgatar o assunto digitado no formulário e  grava na variavel //$assunto
   $assunto = $_POST['assunto'];
   //4 - resgatar endereco
-  $endereco = $_POST['endereco'];
+  //$endereco = $_POST['endereco'];
   //5 - resgatar telefone
   $tel = $_POST['tel'];
   //6 - resgatar email
@@ -20,7 +20,7 @@
   $mensagem = "<strong>Nome:  </strong>".$nome;
   $mensagem .= "<br>  <strong>E-mail: </strong>".$email;
   $mensagem .= "<br>  <strong>Tel: </strong>".$tel;
-  $mensagem .= "<br>  <strong>Tel: </strong>".$assunto;
+  $mensagem .= "<br>  <strong>Assunto: </strong>".$assunto;
   $mensagem .= "<br>  <strong>Mensagem: </strong>".$texto;
   
   
@@ -33,5 +33,6 @@
   $headers .= "Return-Path:  <biancasaraiva@cstsaraiva.com.br>\n"; //caso a msg //seja respondida vai para  este email.
   $headers .= "MIME-Version: 1.0\n";
 mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email.
+mail($email, "Contato", "Caro(a) ".$nome.", agradecemos o contato. Em breve estaremos retornando.",$headers);
 header("location:contact.php");
 ?>
