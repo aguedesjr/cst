@@ -1,6 +1,6 @@
 <? include ("head.php"); ?>
 
-		<script>
+		<!--  <script>
 			function altera(valor) {
 				var sel = valor;
 				if ( sel == 1) {
@@ -13,7 +13,7 @@
 					document.getElementById('empresa').remove();
 				}
 			}
-        </script>
+        </script> -->
 
 <body>
 
@@ -68,38 +68,44 @@
         <div class="row">
             <div class="col-md-8">
                 <h3>Fale Conosco</h3>
-                <form name="sentMessage" id="contactForm" novalidate>
+                <form name="sentMessage" id="contactForm" method="POST" action="enviaremail.php">
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Nome:</label>
-                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Informe seu nome.">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Email:</label>
-                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Informe seu email.">
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Telefone:</label>
+                            <input type="tel" class="form-control" id="tel" required data-validation-required-message="Informe seu telefone.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
                         <label>Assunto:</label><br>
-                            <select name="assunto" id="assunto" class="form-control" onchange=altera(this.value);>
-                            	<option value="">Selecione o Assunto</option>
-                            	<option value="1">Orçamento</option>
-                            	<option value="2">Dúvida</option>
-                            	<option value="3">Críticas/Sugestões</option>
+                            <select name="assunto" id="assunto" class="form-control">
+                            	<option value="">-------------------</option>
+                            	<option value="Orçamento">Orçamento</option>
+                            	<option value="Dúvida">Dúvida</option>
+                            	<option value="Críticas/Sugestões">Críticas/Sugestões</option>
                             </select>
                         </div>
                     </div>
-                    <div class="empresa" id="empresa">
-                    	<input type="hidden">
-                    </div>
+<!--                     <div class="empresa" id="empresa"> -->
+<!--                     	<input type="hidden"> -->
+<!--                     </div> -->
 	                    <div class="control-group form-group" >
 	                        <div class="controls">
 	                            <label>Menssagem:</label>
-	                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+	                            <textarea rows="10" cols="100" class="form-control" name="message" id="message" required data-validation-required-message="Informe a mensagem." maxlength="999" style="resize:none"></textarea>
 	                        </div>
 	                    </div>
                     
