@@ -53,9 +53,9 @@
             <div class="col-md-8">
                 <h3><p style="color: #3C763D;">A Empresa</p>
                 </h3>
-                <p>A CST SARAIVA está instalada em Campos dos Goytacazes, interior do estado do Rio de Janeiro e atua como consultora em segurança do trabalho e saúde ocupacional, orientando e direcionando as empresas no cumprimento das Normas Regulamentadoras e demais legislações vigentes.</p>
-                <p>A CST SARAIVA auxilia seus clientes na melhoria da qualidade de vida dos colaboradores, através de treinamentos, campanhas e cursos.</p>
-                <p>A atuação da CST SARAIVA busca sempre a pró atividade. Acreditamos que cada cliente possui necessidades diferentes, e por isso buscamos soluções personalizadas.</p>
+                <p align="justify">A <b>CST SARAIVA</b> está instalada em Campos dos Goytacazes, interior do estado do Rio de Janeiro e atua como consultora em <b>segurança do trabalho e saúde ocupacional</b>, orientando e direcionando as empresas no cumprimento das Normas Regulamentadoras e demais legislações vigentes.</p>
+                <p align="justify">A <b>CST SARAIVA</b> auxilia seus clientes na melhoria da qualidade de vida dos colaboradores, através de treinamentos, campanhas e cursos.</p>
+                <p align="justify">A atuação da <b>CST SARAIVA</b> busca sempre a pró atividade. Acreditamos que cada cliente possui necessidades diferentes, e por isso buscamos soluções personalizadas.</p>
             </div>
         </div>
         <!-- /.row -->
@@ -71,7 +71,7 @@
             <div class="col-md-8">
                 <h3><p style="color: #3C763D;">Missão</p>
                 </h3>
-                <p>Nossa missão é identificar as necessidades de nossos clientes e desenvolver a segurança e medicina do trabalho com qualidade com qualidade.</p>
+                <p align="justify">Nossa missão é identificar as necessidades de nossos clientes e desenvolver a segurança e medicina do trabalho com qualidade com qualidade.</p>
             </div>
         </div>
         <!-- /.row -->
@@ -87,7 +87,7 @@
             <div class="col-md-8">
                 <h3><p style="color: #3C763D;">Visão</p>
                 </h3>
-                <p>Ser referencial em segurança no trabalho no norte e noroeste fluminense.</p>
+                <p align="justify">Ser referencial em segurança no trabalho no norte e noroeste fluminense.</p>
             </div>
         </div>
         <!-- /.row -->
