@@ -43,6 +43,9 @@
                     <li>
                         <a href="contact.php">Contato</a>
                     </li>
+                    <li>
+                        <a href="cliente.php">Área do Cliente</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

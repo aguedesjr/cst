@@ -23,23 +23,6 @@
         </div>
         <!-- /.row -->
 
-        <!-- Blog Post Row -->
-        <!-- <div class="row">
-        	<div class="col-lg-12">
-                <h2 class="page-header"> </h2>
-            </div>
-            <div class="col-md-1 text-center">
-                <p style="color:#3C763D;">--><!-- <i class="fa fa-building-o fa-4x"></i>  -->
-                <!-- </p>
-            </div>
-            <div class="col-md-8">
-                <h3>
-                    <p style="color: #3C763D;">Sobre nós</p>
-                </h3>
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            </div>
-        </div> -->
         <!-- /.row -->
 
         <!-- <hr> -->

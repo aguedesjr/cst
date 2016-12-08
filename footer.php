@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>CST Saraiva - Consultoria em Seguranca do Trabalho</p>
-                    <p>Copyright &copy; 2016 - www.cstsaraiva.com.br</p>
+                    <p>Copyright &copy; <? echo date('Y'); ?> - www.cstsaraiva.com.br</p>
                 </div>
             </div>
         </footer>
