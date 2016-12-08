@@ -7,3 +7,5 @@
 	include ("head.php");
 	header ("location:cliente.php");
 ?>
+<!-- Testado no site e está funcional -->
+<!-- <meta HTTP-EQUIV="REFRESH" content="0; url=http://www.cstsaraiva.com.br/cliente.php"> -->

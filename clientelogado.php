@@ -3,6 +3,7 @@
 	session_start();
 	$login = $_SESSION['login'];
 	if (!isset($_SESSION["autenticado"])){
+		//<meta HTTP-EQUIV="REFRESH" content="0; url=http://www.cstsaraiva.com.br/cliente.php">
 		header("location:cliente.php");
 		exit;
 	}
