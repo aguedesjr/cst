@@ -4,7 +4,6 @@
 	$_SESSION = array();
 	session_destroy(); //Encerra a sessao
 	unset($_SESSION[login]); //Limpa o login
-	include ("head.php");
 	header ("location:cliente.php");
 ?>
 <!-- Testado no site e está funcional -->
